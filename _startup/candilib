@@ -1,59 +1,51 @@
 ---
 title: CandiLib
-mission: Réserver en ligne sa place de candidat libre à l'examen pratique du permis de conduire
+mission: Réserver en ligne votre place d'examen pratique
 owner: Ministère de l'Intérieur
 incubator: dinsic
 status: investigation
 start: 2018-03-01
 end:
 link:
-repository: https://
+repository: https://github.com/LAB-MI/candilibV2
 stats: false
 contact: frederic.gillodes@interieur.gouv.fr
 ---
 
-## Les candidats libres sont discriminés
+## Les conditions de convocation des candidats libres sont actuellement dégradées  
 
-Les candidats libres sont les candidats au permis de conduire qui se présentent individuellement (sans être présentés sur les places d'une auto-école).
+Les candidats libres sont les candidats à l’examen du permis de conduire qui ne sont pas présentés sur les droits à places des auto-écoles. 
 
-Depuis 2017, la loi impose une équité de traitement pour tous les candidats. Mais dans la réalité, les candidats libres sont actuellement discriminés  :
-- Les délais d'attente pour un deuxième passage dépassent souvent 2 mois
-- La procédure d'inscription est manuelle, peu claire, avec des demandes injustifiées de pièces
-- des dossiers sont perdus dans l'administration
-- Les candidats ne peuvent pas anticiper leur date d'examen : ils ne savent pas où en en est leur dossier, et ils reçoivent parfois leur convocation juste quelques jours avant, et la date peut ne pas leur convenir
-- Le jour de l'examen, ils perçoivent parfois être moins bien reçus par les inspecteurs
+Un scénario typique est que le candidat attend des mois sans nouvelles en continuant à s’entraîner a minima. Il reçoit soudain une convocation pour une date proche qui ne lui convient pas forcément. 
 
-Cette situation empêche les candidats libres de préparer leur examen dans des conditions sereines.
+Ces mauvaises conditions de préparation entraînent de fait une situation discriminante pour ces candidats.
 
-## Une bombe à retardement dans les préfectures
 
-Du côté de l'administration, les services d'organisation des examens vont être débordés par la montée en puissance des candidats libres.
-La gestion est essntiellement manuelle source de perte de temps et d'erreur.
-A la préfecture du 93, 7% des candidats sont des candidats libres mais prennent 50% du temps d'un agent réaprtiteur. et ils ont doublé de janvier à mars 2018.
+Du côté de l’administration, la gestion largement manuelle des candidats libres devient ingérable dans certains départements urbains.
+En Seine-Saint-Denis, 75% du travail des agents du service des places d'examens est consacré à 10% des candidats : les candidats libres. 
 
-Cette croissance exponentielle s'explique par la montée en puissance des plate-formes d'auto-écoles en ligne, et par la possibilité des auto-écoles traditionnelles d'envoyer des candidats en dehors de leurs quotas de places.
-
-La situation sera ingérable d'ici fin 2018.
+Le phénomène ne fait que monter en puissance.
 
 
 ## CandiLib : s'inscrire simplement en candidat libre à l'examen pratique
 
-CandiLib est le service officiel de la Délégation de la Sécurité Routière d'inscription en ligne à l'examen pratique pour les candidats libres.
+Candilib est le service de réservation en ligne des places d'examen pratique du permis de conduire pour les candidats libres.
 
-Comment ça marche ?
-Le·a candidat·e se préinscrit sur le mois de son choix pour être notifié de la date d'ouverture des créneaux (et permettre à l'administration d'anticiper les volumes). Le système l'identifie par son nom/ prénom/ date de naissance et numéro NEPH (inscription à l'examen théorique du code)
+Notre vision est de rendre la réservation d’un créneau d’examen aussi simple qu’une réservation de rendez-vous médical en ligne.
 
-Un mois avant, Le·a candidat·e est notifié·e pour choisir un créneau disponible
+Le candidat sélectionne son centre d’examen et choisit un créneau parmi les disponibilités proposées. Il peut modifier son créneau. 
+Il est accompagné dans sa préparation par des messages pour le mettre dans les meilleurs conditions possibles pour l’examen.
 
-## Les bénéfices :
+Ainsi Candilib permet au candidat de bénéficier de délais maitrisés, d’une date d’examen choisie à l’avance, et ainsi d’augmenter ses chances de réussite.
 
-CandiLib garantit d'obtenir une place dans les deux mois (conformément aux exigences législatives).
-Aucune pièce justificative n'est demandée à l'inscription (seulement des informations d'identification)
-Le·a candidat·e a le confort de choisir le créneau qui lui convient (à l'instar des services de réservations en ligne de rendez-vous médicaux)
-Il·elle peut reporter son rendez-vous.
-Il·elle est rassuré par notifications sur les différentes échéances (ouverture des créneau, veille de l'examen)
+Candilib permet aussi à l’administration de respecter l’équité de traitement entre tous les candidats, d’optimiser la gestion des places d’examen en limitant les no shows, et de libérer du temps d’agents dédiés à cette gestion.
+
+
 
 ## Lancement progressif
 
-Le service sera lancé en pilote sur le 93 et auprès de certains candidats libres identifiés.
-Il sera étendu département par département, en vue d'une systématisation en 2019.
+Une version limitée a été beta-testée en Seine-Saint-Denis depuis Juillet 2018. Sur 5 mois, le taux de non présentation est de 1% versus 18% pour les candidats libres convoqués selon la méthode traditionnelle. 
+
+Les résultats restent à prouver sur la réduction des délais et la réussite.
+
+Une nouvelle version pérenne est lancée depuis fin décembre. L'expérimentation doit être étendue à d'autres départements en 2019.
